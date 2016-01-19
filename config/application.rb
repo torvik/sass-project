@@ -8,7 +8,9 @@ Bundler.require(*Rails.groups)
 
 module SassProjectApp
   class Application < Rails::Application
-     
+
+    config.serve_static_assets = true
+
     # uncomment to ensure a common layout for devise forms
     #   config.to_prepare do   # Devise
     #     Devise::SessionsController.layout "sign"
