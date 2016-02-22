@@ -1,4 +1,6 @@
+ruby "2.2.4"
 source 'https://rubygems.org'
+
 
 gem 'rails', '4.2.0'
 gem 'sass-rails', '~> 5.0'
@@ -13,6 +15,7 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'bootstrap-datepicker-rails'
 gem 'aws-sdk'
+gem 'stripe'
 
 group :development, :test do
   gem 'byebug'
